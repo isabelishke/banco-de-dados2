@@ -18,3 +18,4 @@ CREATE TABLE Compras (
     NomeLivro VARCHAR(255),
     FOREIGN KEY (ClienteID) REFERENCES Clientes(ID)
 );
+SELECT * FROM Clientes;
